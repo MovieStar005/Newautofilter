@@ -61,8 +61,8 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/All_Movie_Star_Link')
 
 # Shortner 
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlwala.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'd8835920f4453699343a04fd3b116e50c0e54221')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '726296b4d26a425c0e2edcff90d4a56964280ac0')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/All_Movie_Star_Link') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
